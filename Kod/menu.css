@@ -1,0 +1,140 @@
+@media (min-width: 769px) and (max-width: 1980px)
+{
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#kontener
+{
+    width: 100%;
+    height: 200%;
+    float: left;
+    background-image: url('../Tło/menu/tlo1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+#przycisk-obszar 
+{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 55%;
+}
+
+#przyciski-sterowanie
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 183px;
+    text-align: center;
+}
+
+.przycisk
+{
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+    padding: 15px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.przycisk:hover
+{
+    border: 3px solid orange;
+    color: orange;
+    transform: scale(1.3,1.3);
+}
+
+}
+
+
+@media (min-width: 1px) and (max-width: 768px)
+{
+
+    *
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+#kontener
+{
+    width: 100%;
+    height: 200%;
+    float: left;
+    background-image: url('../Tło/menu/tlo1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+#przycisk-obszar 
+{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 55%;
+}
+
+#przyciski-sterowanie
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 183px;
+    text-align: center;
+}
+
+.przycisk
+{
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+    padding: 15px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.przycisk:hover
+{
+    border: 3px solid orange;
+    color: orange;
+    transform: scale(1.3,1.3);
+}
+
+
+}
+

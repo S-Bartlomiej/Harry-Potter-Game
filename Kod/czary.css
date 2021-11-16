@@ -1,0 +1,150 @@
+@media (min-width: 1439px) and (max-width: 1980px)
+
+{
+
+body
+{
+    background-image: url('czary.jpg');
+    background-size: contain;
+    padding: 0px;
+    margin: 0px;
+    max-height: 1200px;
+}
+
+#lewo
+{
+    width: 75.8%;
+    max-width: 1600px;
+    height: 100%;
+    float: left;
+}
+
+#czary
+{
+    
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 13%;
+    margin-bottom: 90px;
+    color: black;
+}
+
+#czary b
+{
+    font-style: italic;
+}
+
+#czar {
+    font-size: 30px;
+    font-weight: bold;
+    width: 80%;
+}
+
+#zakazane
+{
+    opacity: 0%;
+}
+
+#prawo
+{
+    background-color: black;
+    
+    width: 24.2%;
+    height: 100%;
+    float: left;
+}
+
+#menu h1
+{
+    color: white;
+}
+
+#menu
+{
+    width: 100%;
+    text-align: center;
+}
+
+.przyciski
+{
+    border: 3px solid white;
+    box-shadow: 0px 0px 5px 3px grey;
+    background-color: white;
+}
+
+#rzut
+{
+    font-weight: bold;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+#l
+{
+    color: white;
+}
+
+#podpowiedz {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    border: 3px solid white;
+    transition-duration: 0.5s;
+    transition-property: all;
+    box-shadow: 0px 0px 5px 2px white;
+    display: none;
+    margin-top: 20px;
+}
+
+.p
+{
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    border: 3px solid white;
+    background-color: transparent;
+    padding: 15px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.p:hover{
+    color: #3538d4;
+    border: 3px solid #3538d4;
+    transform: scale(1.2,1.2);
+}
+
+#telefon
+{
+    display:none;
+}
+
+}
+
+@media (min-width: 1px) and (max-width: 1439px)
+
+{
+    body{
+        width: 100%;
+        height: 100%;
+        background-color: black;
+    }
+
+    #telefon-kontener
+    {
+        display: none;
+    }
+
+    #telefon {
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        position: relative;
+        top: 30%;
+    }
+}

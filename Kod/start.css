@@ -1,0 +1,91 @@
+body {
+    background-image: url('start.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+#lewo {
+    width: 85%;
+    height: 100%;
+    background-repeat: no-repeat;
+    float: left;
+
+
+
+}
+
+#powitanie {
+    margin-top: 2%;
+    color: white;
+    width: 300px;
+    height: 100px;
+    margin-left: 47.5%;
+
+
+}
+
+#powitanie h1 {
+    opacity: 0%;
+}
+
+#prawo {
+    background-color: black;
+    width: 15%;
+    height: 100%;
+    float: left;
+    color: white;
+    position: fixed;
+    right: 0px;
+    margin-right: -225px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 5px 2px white;
+
+}
+
+#menu {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border: 3px solid white;
+}
+
+.lista
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 140px;
+    border: 3px solid white;
+    padding: 10px 10px 10px 10px;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+
+.lista:hover
+{
+    color: black;
+    transform: scale(1.1,1.1);
+    border: 3px solid grey;
+    box-shadow: 0px 0px 40px 5px dimgrey;
+}
+
+a
+{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    transition-property: all;
+    width: 224.75px;
+    height: 63px;
+}
+
+#przycisk
+{
+    width: 380px;
+    height: 40px;
+    margin-top: 35%;
+    box-shadow: 0px 0px 5px 2px white;
+}
+
